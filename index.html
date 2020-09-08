@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Number</title>
+        
+    </head>
+<body>
+<h2> Enter the Number to find number is EVEN or ODD</h2>
+<form>
+<table border="2">
+<tr>
+<td> Enter Number:</td>
+<td><input type="text" id="no"/> </td>
+</tr>
+</table>
+</form>
+
+    <input type="button" value="FIND" onclick="findNo(no.value);"/> &nbsp;
+    
+    <script>
+        function findNo(n1){
+           var a=parseInt(n1);
+           if(a%2==0){
+             alert(" Number is EVEN! ");
+            }
+           else{
+            alert(" Number is ODD! ");
+             }
+        }
+
+    </script>
+</body>
+</html>
